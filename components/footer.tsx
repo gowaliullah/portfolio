@@ -16,7 +16,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <Link
-              href="https://github.com/engWaliullah/portfolio2"
+              href="https://github.com/gowaliullah/portfolio"
               className="hover:text-primary flex items-center gap-1.5 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -25,7 +25,7 @@ export default function Footer() {
               STAR
             </Link>
             <Link
-              href="https://github.com/engWaliullah/portfolio2/fork"
+              href="https://github.com/gowaliullah/portfolio/fork"
               className="hover:text-primary flex items-center gap-1.5 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

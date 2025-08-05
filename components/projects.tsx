@@ -71,7 +71,7 @@ export default function Projects() {
       tags: ["React", "Next.js", "Tailwind CSS"],
       category: "frontend",
       demoLink: "https://dev-waliullah.vercel.app/",
-      githubLink: "https://github.com/engWaliullah/portfolio2"
+      githubLink: "https://github.com/gowaliullah/portfolio"
     }
   ]
 
