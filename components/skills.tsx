@@ -14,6 +14,7 @@ export default function Skills() {
         { name: "Golang", icon: assets.ts },
         { name: "TypeScript", icon: assets.ts },
         { name: "JavaScript", icon: assets.js },
+        { name: "PostgreSQL", icon: assets.js },
         { name: "REST API", icon: assets.restApi },
         { name: "Git", icon: "🔄" },
         { name: "Github", icon: "🔄" },

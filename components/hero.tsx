@@ -10,13 +10,13 @@ export default function Hero() {
     <section
       id="hero"
       className="min-h-screen flex items-center justify-center bg-background text-foreground relative"
-        // "pt-52 pb-20 md:pt-52 md:pb-32 hero-gradient
+    // "pt-52 pb-20 md:pt-52 md:pb-32 hero-gradient
     >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-      <div className="pt-32 pb-20 md:pt-52 md:pb-32 hero-gradien"> 
+      <div className="pt-32 pb-20 md:pt-52 md:pb-32 hero-gradien">
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export default function Hero() {
                     <Github className="h-5 w-5" />
                   </Link>
                 </motion.div>
-                
+
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -81,7 +81,7 @@ export default function Hero() {
                     <Linkedin className="h-5 w-5" />
                   </Link>
                 </motion.div>
-                
+
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -106,18 +106,20 @@ export default function Hero() {
               <div className="aspect-square rounded-full bg-gradient-to-br from-primary/20 to-primary/5 p-1">
                 <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
                   <img
-                  // src="https://i.ibb.co.com/B5mxRb7z/waliullah.jpg"
-                    src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    // src="https://i.ibb.co.com/KjPsGzsp/Whats-App-Image-2025-09-21-at-9-25-01-PM.jpg"
+                    src="https://i.ibb.co.com/3mjLPnwC/Whats-App-Image-2025-09-21-at-9-24-56-PM.jpg"
+                    // src="https://i.ibb.co.com/B5mxRb7z/waliullah.jpg"
+                    // src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="Developer"
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
-              <div className="absolute -bottom-4 -right-4 p-4">
-          <div className="bg-secondary/80 text-secondary-foreground px-7 py-2.5 rounded-full text-sm font-medium border border-transparent hover:animate-border-animation">
-            {/* Backend Developer */}
-            Jr. Software Engineer
-        </div>
+              <div className="absolute -bottom-4 -right-4 p-5">
+                <div className="bg-secondary/80 text-secondary-foreground px-7 py-2.5 rounded-full text-sm font-medium border border-transparent hover:animate-border-animation">
+                  {/* Backend Developer */}
+                  Jr. Software Engineer
+                </div>
               </div>
             </motion.div>
           </div>
