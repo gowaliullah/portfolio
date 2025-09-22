@@ -16,6 +16,7 @@ export default function Skills() {
         { name: "JavaScript", icon: assets.js },
         { name: "PostgreSQL", icon: assets.js },
         { name: "REST API", icon: assets.restApi },
+        { name: "Docker", icon: "🔄" },
         { name: "Git", icon: "🔄" },
         { name: "Github", icon: "🔄" },
         { name: "VS Code", icon: "🔄" },
