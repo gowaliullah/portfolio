@@ -9,8 +9,7 @@ export default function Skills() {
     {
       title: "Langeages",
       skills: [
-        // { name: "React", icon: assets.react },
-        // { name: "Next.js", icon: assets.next },
+   
         { name: "Golang", icon: assets.ts },
         { name: "TypeScript", icon: assets.ts },
         { name: "JavaScript", icon: assets.js },
@@ -21,38 +20,9 @@ export default function Skills() {
         { name: "Github", icon: "🔄" },
         { name: "VS Code", icon: "🔄" },
         { name: "Postman", icon: assets.restApi },
-        // { name: "Tailwind CSS", icon: assets.tail },
-        // { name: "HTML/CSS", icon: "</>" },
-        // { name: "Redux", icon: assets.react },
-        // { name: "Framer Motion", icon: "🎭" },
       ],
     },
-    // {
-    //   title: "Backend Development",
-    //   skills: [
-    //     { name: "TypeScript", icon: assets.ts },
-    //     { name: "JavaScript", icon: assets.js },
-    //     { name: "Node.js", icon: assets.ode },
-    //     { name: "Express", icon: assets.express },
-    //     { name: "MongoDB", icon: assets.mongogb },
-    //     { name: "Mongoose", icon: assets.mongoose },
-    //     // { name: "Postgres", icon: "🐈" },
-    //     { name: "Prisma", icon: "🐈" },
-    //     { name: "REST API", icon: assets.restApi },
-    //   ],
-    // },
-    // {
-    //   title: "Tools & Other Skills",
-    //   skills: [
-    //     { name: "Git", icon: "🔄" },
-    //     { name: "VS Code", icon: "🔄" },
-    //     { name: "Postman", icon: assets.restApi },
-    //     { name: "REST API", icon: assets.restApi },
-    //     { name: "Figma", icon: "📱" },
-    //     { name: "Jest/Vitest", icon: "🧪" },
-    //     { name: "Agile/Scrum", icon: "🔄" },
-    //   ],
-    // },
+   
   ];
 
   return (
@@ -65,14 +35,10 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          {/* <span className="text-sm text-primary font-medium uppercase tracking-wider mb-2 block">
-            Expertise
-          </span> */}
+          
           <h2 className="text-3xl font-bold mb-4">Skills & Technologies</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
-          {/* <p className="max-w-3xl mx-auto text-lg text-muted-foreground">
-            The tools and technologies I use to bring products to life
-          </p> */}
+          
         </motion.div>
 
         <div className="space-y-12">

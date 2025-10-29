@@ -15,42 +15,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function Services() {
   const services = [
-    // {
-    //   icon: <Layout className="h-10 w-10 text-primary" />,
-    //   title: "Frontend Development",
-    //   description:
-    //     "Building responsive, interactive user interfaces using React.js, Next.js, and modern CSS frameworks.",
-    // },
     {
-      icon: <Server className="h-10 w-10 text-primary" />,
-      title: "Backend Development",
-      description:
-        "Creating robust server-side applications with Node.js, Express.js, and RESTful API design.",
-    },
-    {
-      icon: <Database className="h-10 w-10 text-primary" />,
-      title: "Database Design",
-      description:
-        "Designing efficient and scalable database schemas using MongoDB and implementing with Mongoose.",
-    },
-    {
-      icon: <Code2 className="h-10 w-10 text-primary" />,
-      title: "Full Stack Development",
-      description:
-        "End-to-end application development from frontend to backend using the complete MERN stack.",
-    },
-    // {
-    //   icon: <Smartphone className="h-10 w-10 text-primary" />,
-    //   title: "Responsive Web Design",
-    //   description:
-    //     "Creating websites that work seamlessly across all devices and screen sizes.",
-    // },
-    // {
-    //   icon: <Search className="h-10 w-10 text-primary" />,
-    //   title: "Performance Optimization",
-    //   description:
-    //     "Improving application speed and efficiency through code optimization and best practices.",
-    // },
+  icon: <Server className="h-10 w-10 text-primary" />,
+  title: "Backend Development",
+  description:
+    "Creating robust server-side applications with Go, PostgreSQL, and Docker containerization.",
+},
+{
+  icon: <Database className="h-10 w-10 text-primary" />,
+  title: "Database Design",
+  description:
+    "Designing efficient and scalable database schemas using PostgreSQL with advanced SQL optimization.",
+},
+{
+  icon: <Code2 className="h-10 w-10 text-primary" />,
+  title: "API Design",
+  description:
+    "Building scalable RESTful APIs and microservices with Go, PostgreSQL, and Docker deployment.",
+},
   ];
 
   const cardVariants = {
